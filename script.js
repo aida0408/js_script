@@ -15,11 +15,23 @@
 // }else{
 //     console.log("Ya tebya ne znayu!")
 // }
-let number = -5
-if (number > 0){
-    console.log("Positive")
-}else if (number < 0) {
-    console.log("Negative")
-}else{
-    console.log("zero")
+// let number = -5
+// if (number > 0){
+//     console.log("Positive")
+// }else if (number < 0) {
+//     console.log("Negative")
+// }else{
+//     console.log("zero")
+// }
+const time = 105
+if (time > 0 && time <= 15){
+    console.log('Первая четверть')
+}else if (time >= 16 && time <= 30){
+    console.log('Вторая четверть')
+}else if (time >= 31 && time <= 45){
+    console.log('Третья четверть')
+}else if (time >= 46 && time <= 60){
+    console.log('Четвертая четверть')
+}else {
+    console.log('Такой минуты нет')
 }
