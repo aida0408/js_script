@@ -15,4 +15,11 @@
 // }else{
 //     console.log("Ya tebya ne znayu!")
 // }
-
+let number = -5
+if (number > 0){
+    console.log("Positive")
+}else if (number < 0) {
+    console.log("Negative")
+}else{
+    console.log("zero")
+}
