@@ -58,16 +58,16 @@
 // Мне 26 лет, если в переменной лежит 31, то вывести Мне 31 год, если 32, то Мне 32 года
 // Сделать до 100 лет.
 
-let age = 36
-if(age > 4 && age < 1) {
-    console.log(`Мне ${age} лет`)
-}else if (age % 10 === 1) {
-    console.log(`Мне ${age} год`)
-}else if (age % 10 === 2 || age % 10 === 3 || age % 10 === 4){
-    console.log(`Мне ${age} года`)
-}else {
-    console.log(`Мне ${age} лет`)
-}
+// let age = 111
+// if(age > 4 && age < 21) {
+//     console.log(`Мне ${age} лет`)
+// }else if (age % 10 === 1) {
+//     console.log(`Мне ${age} год`)
+// }else if (age % 10 === 2 || age % 10 === 3 || age % 10 === 4){
+//     console.log(`Мне ${age} года`)
+// }else {
+//     console.log(`Мне ${age} лет`)
+// }
 
 // Определить есть ли в строке буква п и вернуть результат:
 // В строке есть буква 'п'
@@ -97,3 +97,16 @@ if(age > 4 && age < 1) {
 // }else{
 //     console.log('single')
 // }
+
+let month = 12
+if (month === 1 || month === 2 || month === 12){
+    console.log("Winter")
+}else if ( month >= 3 && month <=5 ){
+    console.log("Spring")
+}else if( month >= 6 && month <= 8 ){
+    console.log(" Summer")
+}else if( month >= 9 && month <= 11 ) {
+    console.log(" Autumn")
+}else {
+    console.log(" Ne naideno")
+}
