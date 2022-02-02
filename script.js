@@ -72,10 +72,14 @@
 // Определить есть ли в строке буква п и вернуть результат:
 // В строке есть буква 'п'
 // регистр игнорировать
-
+// let symbol = 'ы'
 // let string = 'Привет как дела'
-// console.log(string.toLowerCase().search("п"))
-//
+// if (string.toLowerCase().includes(symbol)){
+//     console.log('В строке есть такая буква')
+// }else{
+//     console.log('В строке нет такой буквы')
+// }
+
 
 // Если длинна строки превышает length, выведите, что строка слишком длинная, если нет, выведите, что все ок.
 //
@@ -97,16 +101,28 @@
 // }else{
 //     console.log('single')
 // }
-
-let month = 12
-if (month === 1 || month === 2 || month === 12){
-    console.log("Winter")
-}else if ( month >= 3 && month <=5 ){
-    console.log("Spring")
-}else if( month >= 6 && month <= 8 ){
-    console.log(" Summer")
-}else if( month >= 9 && month <= 11 ) {
-    console.log(" Autumn")
-}else {
-    console.log(" Ne naideno")
-}
+//
+// let month = 12
+// if (month === 1 || month === 2 || month === 12){
+//     console.log("Winter")
+// }else if ( month >= 3 && month <=5 ){
+//     console.log("Spring")
+// }else if( month >= 6 && month <= 8 ){
+//     console.log(" Summer")
+// }else if( month >= 9 && month <= 11 ) {
+//     console.log(" Autumn")
+// }else {
+//     console.log(" Ne naideno")
+// }
+//
+// let age = 23
+//
+// if(age > 4 && age < 21){
+//     console.log(` Mne ${age} let`)
+// }else if(age % 10 === 1){
+//     console.log(`Mne ${age} god`)
+// }else if(age % 10 > 1 && age % 10 < 5){
+//     console.log(`Mne ${age} goda`)
+// }else{
+//     console.log(`Mne ${age} let`)
+// }
