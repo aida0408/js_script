@@ -82,14 +82,14 @@
 
 
 // Если длинна строки превышает length, выведите, что строка слишком длинная, если нет, выведите, что все ок.
-//
 
-// let str = 'This is my string'
-// if (str [0] === str[str.length-1]){
-//     console.log("vse ok")
-// }else {
-//     console.log("prevyshaet")
-// }
+let length = 20
+let str = 'This is my string'
+if (str.length > length) {
+    console.log("prevyshaet")
+}else {
+    console.log("vse ok")
+}
 
 
 //Выведите single, если symbol встречается один раз, и multi , если более одного раза и none если такой буквы нет
